@@ -1,0 +1,8 @@
+Q5. Calculate the area of a circle.
+
+# Input the radius
+radius = float(input("Enter the radius of the circle: "))
+# Calculate the area
+area = 3.14 * radius * radius
+# Print the result
+print("The area of the circle is:", area)
