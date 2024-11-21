@@ -1,0 +1,12 @@
+Q.5 Write a code for string, int and float input.
+
+ # Taking string input
+string_input = input("Enter a string: ")
+# Taking integer input
+int_input = int(input("Enter an integer: "))
+# Taking float input
+float_input = float(input("Enter a float: "))
+# Displaying the inputs
+print("String input:", string_input)
+print("Integer input:", int_input)
+print("Float input:", float_input)
