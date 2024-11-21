@@ -1,0 +1,11 @@
+#sQ8.Calculate the area of a square.
+
+# Input the side length of the square
+side = float(input("Enter the side length of the square: "))
+
+# Calculate the area using the formula: Area = side^2
+area = side * side
+
+# Output the result
+print("The area of the square is:", area)
+
