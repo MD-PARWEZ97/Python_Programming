@@ -1,0 +1,14 @@
+Q.2 describe local variable and global variable code
+Program:
+x = 10 # This is variable
+def my_function():
+ # Local variable
+y = 20 # This is variable
+print("Inside the function:")
+print("Global variable x:", x) # Accessing the global variable
+print("Local variable y:", y) # Accessing the local variable
+my_function() # Calling the function
+print("\nOutside the function:")
+print("Global variable x:", x) # Global variable is still accessible
+print("Local variable y:", y)
+ # This will raise a NameError because 'y' is not defined outside the function
