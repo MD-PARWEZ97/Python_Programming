@@ -1,0 +1,11 @@
+#Q6.Calculate the area of a triangle.
+
+# Input the base and height of the triangle
+base = float(input("Enter the base of the triangle: "))
+height = float(input("Enter the height of the triangle: "))
+
+# Calculate the area using the formula: Area = 1/2 * base * height
+area = 0.5 * base * height
+
+# Output the result
+print("The area of the triangle is:", area)
