@@ -1,0 +1,9 @@
+total_sales = 0
+
+print("Enter 5 sales amounts:")
+for i in range(5):
+    sale = float(input(f"Enter sale amount {i+1}: "))
+    total_sales += sale  
+average_sales = total_sales / 5
+print(f"\nTotal Sales: {total_sales}")
+print(f"Average Sales: {average_sales}")
